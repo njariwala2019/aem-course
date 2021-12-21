@@ -4,6 +4,6 @@
     "com.myapp.web"
   ],
   "org.apache.sling.commons.log.level": "info",
-  "org.apache.sling.commons.log.file": "logs/project-mywebapp.log",
+  "org.apache.sling.commons.log.file": "logs/project-mycustomlog.log",
   "org.apache.sling.commons.log.additiv": "false"
 }
