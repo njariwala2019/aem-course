@@ -1,0 +1,10 @@
+<div class="jumbotron">
+    <h1 class="display-4 cmp-promo__title">${properties.title}</h1>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="${properties.link}" role="button">${properties.ctalabel}</a>
+    </p>
+    <div class="cmp-promo__title" data-sly-use.model="com.myapp.web.core.models.PromoModel" >
+        <p>${model.promoTitle}</p>
+    </div>
+
+</div>
