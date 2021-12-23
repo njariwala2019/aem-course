@@ -3,4 +3,5 @@
     <filter root="/apps/myAppWeb/clientlibs"/>
     <filter root="/apps/myAppWeb/components"/>
     <filter root="/apps/myAppWeb/i18n"/>
+    <filter root="/apps/sling"/>
 </workspaceFilter>

@@ -24,8 +24,8 @@
             <plugins jcr:primaryType="nt:unstructured">
                 <crop
                     jcr:primaryType="nt:unstructured"
-                    supportedMimeTypes="[image/jpeg,image/png,image/tiff]"
-                    features="*">
+                    features="*"
+                    supportedMimeTypes="[image/jpeg,image/png,image/tiff]">
                     <aspectRatios jcr:primaryType="nt:unstructured">
                         <wideLandscape
                             jcr:primaryType="nt:unstructured"
@@ -47,20 +47,20 @@
                 </crop>
                 <flip
                     jcr:primaryType="nt:unstructured"
-                    supportedMimeTypes="[image/jpeg,image/png,image/tiff]"
-                    features="-"/>
+                    features="-"
+                    supportedMimeTypes="[image/jpeg,image/png,image/tiff]"/>
                 <map
                     jcr:primaryType="nt:unstructured"
-                    supportedMimeTypes="[image/jpeg,image/png,image/tiff,image/svg+xml]"
-                    features="*"/>
+                    features="*"
+                    supportedMimeTypes="[image/jpeg,image/png,image/tiff,image/svg+xml]"/>
                 <rotate
                     jcr:primaryType="nt:unstructured"
-                    supportedMimeTypes="[image/jpeg,image/png,image/tiff]"
-                    features="*"/>
+                    features="*"
+                    supportedMimeTypes="[image/jpeg,image/png,image/tiff]"/>
                 <zoom
                     jcr:primaryType="nt:unstructured"
-                    supportedMimeTypes="[image/jpeg,image/png,image/tiff,image/svg+xml]"
-                    features="*"/>
+                    features="*"
+                    supportedMimeTypes="[image/jpeg,image/png,image/tiff,image/svg+xml]"/>
             </plugins>
             <ui jcr:primaryType="nt:unstructured">
                 <inline
