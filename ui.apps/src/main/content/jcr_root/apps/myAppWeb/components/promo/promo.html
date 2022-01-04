@@ -11,5 +11,28 @@
 
     <div class="cmp-promo__title_clientlib">
         ${'promo.btn.label' @ i18n}
+
+        <!-- /*  This is my comment. ${properties.title}  */-->
+        <sly data-sly-include="head.html"/>
+
+        <div data-sly-text="${properties.title}" > MY BODY</div>
+
+
+        <div data-sly-test="${properties.title}"> Test true </div>
+
+        <!-- /*  Data sly repeat */-->
+
+        <ul data-sly-repeat="${currentPage.listChildren}">
+            <li>${item.name}</li>
+        </ul>
+
+        <!-- /*  Data sly list */-->
+
+        <ul data-sly-list="${currentPage.listChildren}">
+            <li>${item.name}</li>
+        </ul>
+
+        <div data-sly-resource="${ 'title' @resourceType='myAppWeb/components/title'}" />
     </div>
+
 </div>
