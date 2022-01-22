@@ -1,0 +1,10 @@
+{
+  "versionmanager.createVersionOnActivation": true,
+  "versionmanager.purgingEnabled": true,
+  "versionmanager.purgePaths" : ["versionmanager.purgePaths"],
+  "versionmanager.ivPaths": ["/"],
+  "versionmanager.maxAgeDays": 30,
+  "versionmanager.maxNumberVersions": 2,
+  "versionmanager.minNumberVersions": 0
+
+}
