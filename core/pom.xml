@@ -83,6 +83,13 @@ Import-Package: javax.annotation;version=0.0.0,*
     <dependencies>
 
 
+
+        <dependency>
+            <groupId>com.adobe.acs</groupId>
+            <artifactId>acs-aem-commons-bundle</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

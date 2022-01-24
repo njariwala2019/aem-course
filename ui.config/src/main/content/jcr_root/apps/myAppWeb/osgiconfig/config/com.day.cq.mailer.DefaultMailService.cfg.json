@@ -1,0 +1,11 @@
+{
+  "smtp.host": "email-smtp.us-east-1.amazonaws.com",
+  "smtp.port": 587,
+  "smtp.ssl": false,
+  "smtp.starttls": true,
+  "debug.email": true,
+  "from.address":  "nikunj.jariwala@gmail.com",
+  "smtp.password":"BMtxXMerLPuB4TLr1COGkHxyLfQiPuyM6hPg/7Rz1Fbd",
+  "smtp.user":"AKIATSTIOAJ2E4X5USGB"
+
+}
