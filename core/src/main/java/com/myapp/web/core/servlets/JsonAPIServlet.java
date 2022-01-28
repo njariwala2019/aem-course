@@ -2,6 +2,7 @@ package com.myapp.web.core.servlets;
 
 import com.day.cq.commons.Externalizer;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.HttpConstants;
@@ -32,7 +33,7 @@ public class JsonAPIServlet extends SlingSafeMethodsServlet {
         Externalizer externalizer = request.getResourceResolver().adaptTo(Externalizer.class);
         response.setContentType("application/json");
         response.setCharacterEncoding("utf-8");
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().create();
         Map<String,String> map = new HashMap<>();
         map.put("name","Nikunj Jariwala");
         map.put("domain", "https://www.donotstoplearning.com");

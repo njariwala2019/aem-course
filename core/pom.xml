@@ -83,6 +83,12 @@ Import-Package: javax.annotation;version=0.0.0,*
     <dependencies>
 
 
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>com.adobe.acs</groupId>
